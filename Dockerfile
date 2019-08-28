@@ -1,4 +1,4 @@
-FROM runzexia/builder-base:latest
+FROM kubespheredev/builder-base:latest
 
 # java
 RUN yum install -y java-1.8.0-openjdk-devel \
