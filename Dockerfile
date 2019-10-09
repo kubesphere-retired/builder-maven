@@ -2,7 +2,7 @@ FROM kubespheredev/builder-base:latest
 
 # java
 RUN yum install -y java-1.8.0-openjdk-devel \
-    java-1.8.0-openjdk-devel.i686
+    java-1.8.0-openjdk-devel
 
 # maven
 ENV MAVEN_VERSION 3.5.3
